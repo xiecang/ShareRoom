@@ -1,0 +1,7 @@
+PER_PAGE = 15
+
+# 金币
+BEANS_UPLOAD_ONE_BOOK = 0.5
+
+# 最近赠送的图书
+RECENT_BOOK_COUNT = 30
