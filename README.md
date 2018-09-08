@@ -26,6 +26,7 @@
   ```python
   DEBUG = True
   
+  # 数据库配置
   SQLALCHEMY_DATABASE_URI = "mysql+cymysql://root:password@127.0.0.1:3306/database?charset=utf8"
   SQLALCHEMY_TRACK_MODIFICATIONS = False
   SECRET_KEY = ""
@@ -41,4 +42,15 @@
   MAIL_SENDER = 'name <support@codes-room.com>'
   ```
 
-- 运行fisher
+- 运行 `share.py`
+
+  (此时应该在pipenv shell中)
+
+  ```shell
+  cd ../
+  pyhon3 share.py
+  ```
+
+
+## 运行截图
+
